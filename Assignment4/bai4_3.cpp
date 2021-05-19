@@ -10,7 +10,7 @@ int main(){
 		s=s*a;
 		a=a+1;
 	}
-	printf("n! la: %.0lf",s);
+	printf("%.0lf! la: %.0lf",n,s);
 
 }
 
