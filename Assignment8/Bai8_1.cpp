@@ -23,6 +23,9 @@ int main(){
 		if(a[i]<x){
 			printf("So nho gan x nhat la: %d",a[i]);
 			break;
+		}else if(a[n-1]>=x){
+			printf("Khong co so nao nho hon %d",x);
+			break;
 		}
 	}
 }
