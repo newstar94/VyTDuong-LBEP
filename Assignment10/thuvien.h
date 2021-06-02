@@ -110,7 +110,7 @@ int fibonaci(int n){
 }
 // Sap xep
 void sapxep(int n, int arr[]){
-	for(int i=1;i<n;i++){
+	for(int i=1;i<=n;i++){
 			int j=i-1;
 			int temp=arr[i];
 			for(;j>=0&&temp<arr[j];j--){
