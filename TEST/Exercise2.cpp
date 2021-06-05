@@ -4,7 +4,7 @@
 int main() {
     char s[100];
     printf("Enter string: ");
-    scanf("%s", s);
+    gets(s);
     upperCase(s);
     printf("Upper Case: %s", s);
 }
